@@ -9,7 +9,7 @@ export default function Navbar({ className }) {
       <ul>
         {navbarLinks.map((linkObject, i) => (
           <li key={i}>
-            <Link to={linkObject.path}>{linkObject.name}</Link>
+            <Link to={linkObject.path}>{linkObject.name.toUpperCase()}</Link>
           </li>
         ))}
       </ul>

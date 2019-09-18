@@ -8,7 +8,7 @@ const StyledBurgerIcon = styled(BurgerIcon)`
     display: block;
 
     margin-right: 5px;
-
+    margin-left: auto;
     input:focus,
     select:focus,
     textarea:focus,

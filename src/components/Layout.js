@@ -6,6 +6,7 @@ import Logo from './styledComponents/Logo';
 import Container from './styledComponents/Container';
 import BurgerIcon from './styledComponents/BurgerIcon';
 import Flex from './styledComponents/Flex';
+import Title from './styledComponents/Title';
 
 export default function Layout({ children }) {
   const [isOpen, setIsOpen] = useState(false);
@@ -14,7 +15,10 @@ export default function Layout({ children }) {
   return (
     <Container full fullVertical>
       <Logo src={logoImage} />
-      <BurgerIcon isOpen={isOpen} handleIsOpen={handleIsOpen} />
+      <Flex>
+        <Title />
+        <BurgerIcon isOpen={isOpen} handleIsOpen={handleIsOpen} />
+      </Flex>
       <Navbar isOpen={isOpen} handleIsOpen={handleIsOpen} />
       {children}
     </Container>

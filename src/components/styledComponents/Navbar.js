@@ -2,6 +2,7 @@ import styled, { css } from 'styled-components';
 import Navbar from '../Navbar';
 
 const StyledNavbar = styled(Navbar)`
+  @import url('https://fonts.googleapis.com/css?family=IBM+Plex+Sans:300,600&display=swap');
   border-radius: 20px;
 
   ul {
@@ -11,12 +12,12 @@ const StyledNavbar = styled(Navbar)`
     padding: 0;
     background-color: black;
     justify-content: flex-end;
-    border-radius: 5px;
+    border-radius: 3px;
   }
 
   li {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 1rem;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 1.2rem;
 
     a {
       &:hover {
