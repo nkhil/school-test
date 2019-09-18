@@ -13,6 +13,7 @@ const StyledButton = styled(Button)`
     text-transform: uppercase;
     font-size: 1.5rem;
     display: inline-block;
+    box-shadow: rgba(79, 79, 79, 0.25) 0px 4px 20px;
   }
 `;
 
