@@ -6,7 +6,7 @@ import Button from './styledComponents/Button';
 
 export default function Hero({ className }) {
   return (
-    <Container className={className}>
+    <Container full className={className}>
       <h1>{homepageHeroContent.title}</h1>
       <p>{homepageHeroContent.bigText.toUpperCase()}</p>
       <Button text="About the school" path="/about" />
