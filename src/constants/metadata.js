@@ -1,4 +1,4 @@
 export default {
-  title: 'St. Michaels School',
-  description: 'St. Michaels school',
+  title: "St. Michael's School",
+  description: "St. Michael's school",
 };

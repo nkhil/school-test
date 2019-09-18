@@ -2,7 +2,6 @@ import styled, { css } from 'styled-components';
 import Navbar from '../Navbar';
 
 const StyledNavbar = styled(Navbar)`
-  @import url('https://fonts.googleapis.com/css?family=IBM+Plex+Sans:300,600&display=swap');
   border-radius: 20px;
 
   ul {
@@ -16,7 +15,6 @@ const StyledNavbar = styled(Navbar)`
   }
 
   li {
-    font-family: 'IBM Plex Sans', sans-serif;
     font-size: 1.2rem;
 
     a {
