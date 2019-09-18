@@ -9,7 +9,7 @@ const StyledNavbar = styled(Navbar)`
     list-style-type: none;
     margin: 0;
     padding: 0;
-    background-color: black;
+    background-color: #000;
     justify-content: flex-end;
     border-radius: 3px;
   }
@@ -20,13 +20,13 @@ const StyledNavbar = styled(Navbar)`
     a {
       &:hover {
         cursor: pointer;
-        border-bottom: 3px solid white;
+        border-bottom: 1px solid white;
       }
     }
 
     a {
       display: block;
-      padding: 20px 20px 10px 20px;
+      padding: 10px 20px 10px 20px;
       text-decoration: none;
       text-transform: capitalize;
       color: white;

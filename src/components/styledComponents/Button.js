@@ -12,6 +12,7 @@ const StyledButton = styled(Button)`
     text-decoration: none;
     text-transform: uppercase;
     font-size: 1.5rem;
+    display: inline-block;
   }
 `;
 
