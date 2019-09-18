@@ -4,7 +4,7 @@ import Hero from '../Hero';
 const StyledHero = styled(Hero)`
   text-align: center;
 
-  background: linear-gradient(rgba(28, 28, 28, 0.5), rgba(28, 28, 28, 0.5)),
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(32, 32, 32, 0.5)),
     url(${props => props.bgImage}) no-repeat center center fixed;
   background-size: cover;
   color: white;

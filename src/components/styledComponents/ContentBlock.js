@@ -11,6 +11,7 @@ const StyledContentBlock = styled(ContentBlock)`
   h2 {
     font-size: 2.5rem;
     line-height: 1.3;
+    margin-bottom: 5px;
   }
 
   p {
