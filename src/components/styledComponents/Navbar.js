@@ -11,7 +11,9 @@ const StyledNavbar = styled(Navbar)`
     padding: 0;
     background-color: #000;
     justify-content: flex-end;
-    border-radius: 3px;
+    -moz-border-radius: 0px;
+    -webkit-border-radius: 5px 5px 0px 0px;
+    border-radius: 5px 5px 0px 0px;
   }
 
   li {
@@ -34,17 +36,19 @@ const StyledNavbar = styled(Navbar)`
   }
 
   @media screen and (max-width: 599px) {
-    transition: all 2s ease-out;
+    transition: all 0.2s ease-out;
 
     ${props => {
       if (props.isOpen) {
         return css`
-          opacity: 1;
+          display: block;
+          /* opacity: 1; */
           height: auto;
         `;
       }
       return css`
-        opacity: 0;
+        display: none;
+        /* opacity: 0; */
         height: 0;
         overflow: hidden;
       `;
@@ -57,6 +61,7 @@ const StyledNavbar = styled(Navbar)`
       text-align: left;
       margin: 0;
       padding: 0;
+      border-radius: 0;
     }
 
     li {

@@ -2,6 +2,7 @@
 import React from 'react';
 import { Link } from 'gatsby';
 import navbarLinks from '../constants/navbarLinks';
+import Container from './styledComponents/Container';
 
 export default function Navbar({ className }) {
   return (

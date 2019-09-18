@@ -14,12 +14,12 @@ const Container = styled.div`
   margin: auto;
 
   padding-left: ${props => {
-    if (props.full) return '15px';
+    if (props.full) return 0;
     return 'calc((100vw - 960px) / 2)';
   }};
 
   padding-right: ${props => {
-    if (props.full) return '15px';
+    if (props.full) return 0;
     return 'calc((100vw - 960px) / 2)';
   }};
 

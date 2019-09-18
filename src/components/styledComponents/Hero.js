@@ -2,7 +2,6 @@ import styled from 'styled-components';
 import Hero from '../Hero';
 
 const StyledHero = styled(Hero)`
-  max-width: 980px;
   text-align: center;
 
   background: linear-gradient(rgba(28, 28, 28, 0.5), rgba(28, 28, 28, 0.5)),
@@ -19,7 +18,7 @@ const StyledHero = styled(Hero)`
   p {
     font-size: 3rem;
     font-weight: 600;
-    margin: 0 0 20px 0;
+    margin: 0 10px 20px 10px;
   }
 
   @media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
