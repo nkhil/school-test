@@ -1,12 +1,13 @@
-/**
- * Configure your Gatsby site with this file.
- *
- * See: https://www.gatsbyjs.org/docs/gatsby-config/
- */
-
 module.exports = {
   plugins: [
     `gatsby-plugin-styled-components`,
-     //... other plugins
-  ]
-}
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `board`,
+        path: `${__dirname}/content/`,
+      },
+    },
+    `gatsby-transformer-remark`,
+  ],
+};
