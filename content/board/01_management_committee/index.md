@@ -15,3 +15,8 @@ At St.Michael’s we believe that each child has a treasure within and should be
 Teachers of St.Michael’s ensure the all round development of the students under their care. They throw themselves wholeheartedly not just into teaching but also into imparting knowledge by creating exciting and enriching experiences for the students.
 
 Admission Forms are available in the month of December every year. Dates for sale of forms will be made public through an advertisement in the local newspapers.
+
+| First Name | Last Name | Job Title            |
+| ---------- | --------- | -------------------- |
+| James      | Matman    | Chief Sandwich Eater |
+| The        | Tick      | Crimefighter Sorta   |

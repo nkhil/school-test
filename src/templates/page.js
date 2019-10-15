@@ -8,12 +8,19 @@ import Container from '../components/styledComponents/Container';
 
 const H1 = styled.h1`
   font-size: 3.2rem;
+  text-align: center;
 `;
 
 const Div = styled.div`
   p {
+    max-width: 960px;
     font-size: 1.2rem;
     line-height: 1.5;
+  }
+
+  h4 {
+    font-size: 1.5rem;
+    line-height: 1.4;
   }
 `;
 
@@ -23,7 +30,7 @@ export default function Template({ data }) {
   return (
     <>
       <Layout />
-      <Container width="960px" full fullVertical>
+      <Container width="980px" full fullVertical>
         <H1>{post.frontmatter.title}</H1>
         <Div dangerouslySetInnerHTML={{ __html: post.html }} />
       </Container>
