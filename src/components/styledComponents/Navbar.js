@@ -9,20 +9,24 @@ const StyledNavbar = styled(Navbar)`
     list-style-type: none;
     margin: 0;
     padding: 0;
-    background-color: #000;
+    position: relative;
+    top: 100%;
+    /* background-color: #000; */
     justify-content: flex-end;
-    -moz-border-radius: 0px;
+    /* justify-content: center; */
+    /* -moz-border-radius: 0px;
     -webkit-border-radius: 5px 5px 0px 0px;
-    border-radius: 5px 5px 0px 0px;
+    border-radius: 5px 5px 0px 0px; */
   }
 
   li {
     font-size: 1.2rem;
-
+    font-weight: 600;
     a {
       &:hover {
         cursor: pointer;
-        border-bottom: 1px solid white;
+        color: #402626;
+        border-bottom: 5px solid black;
       }
     }
 
@@ -31,7 +35,8 @@ const StyledNavbar = styled(Navbar)`
       padding: 10px 20px 10px 20px;
       text-decoration: none;
       text-transform: capitalize;
-      color: white;
+      color: #000;
+      border-bottom: 5px solid transparent;
     }
   }
 
