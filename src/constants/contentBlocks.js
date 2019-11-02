@@ -18,7 +18,7 @@ export default [
     body:
       'Admission Forms are available in the month of December every year. Dates for sale of forms will be made public through an advertisement in the local newspapers.',
     buttonText: 'Read about our admission process',
-    buttonPath: '/admission',
+    buttonPath: '/admission-process',
   },
   {
     title: 'Contact us',
