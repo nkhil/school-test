@@ -3,6 +3,10 @@ import Title from '../Title';
 
 const StyledTitle = styled(Title)`
   display: none;
+  a {
+    text-decoration: none;
+    color: black;
+  }
 
   h1 {
     margin: 5px;
