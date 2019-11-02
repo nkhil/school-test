@@ -24,6 +24,6 @@ export default [
     title: 'Contact us',
     body: 'Feel free to get in touch with any questons you might have.',
     buttonText: 'Contact us',
-    buttonPath: '/contact-us',
+    buttonPath: '/contact',
   },
 ];
