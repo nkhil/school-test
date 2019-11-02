@@ -1,7 +1,7 @@
 /* eslint-disable react/prop-types */
 import React, { useState } from 'react';
 import Navbar from './styledComponents/Navbar';
-import logoImage from '../../static/logo/st-michaels-school.png';
+import logoImage from '../../static/logo/alt.png';
 import Logo from './styledComponents/Logo';
 import Container from './styledComponents/Container';
 import BurgerIcon from './styledComponents/BurgerIcon';

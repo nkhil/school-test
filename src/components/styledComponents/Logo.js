@@ -10,8 +10,8 @@ const StyledLogo = styled(Logo)`
     max-width: 100%;
     height: auto;
     margin-top: ${props => {
-      if (props.margin) return props.margin;
-      return '15px';
+      if (props.marginTop) return props.marginTop;
+      return '25px';
     }};
   }
 
