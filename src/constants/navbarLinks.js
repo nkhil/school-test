@@ -8,11 +8,11 @@ export default [
     path: '/about',
   },
   {
-    name: 'contact',
-    path: '/contact',
+    name: 'admissions',
+    path: '/admission-process',
   },
   {
-    name: 'sitemap',
-    path: '/sitemap',
+    name: 'contact',
+    path: '/contact',
   },
 ];
