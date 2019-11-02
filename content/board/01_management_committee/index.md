@@ -4,7 +4,9 @@ date: "13/02/2019"
 title: "Management Committee"
 ---
 
+<p style="text-align: center;">
 Please find details about the management committee below.
+</p>
 
 <div style="overflow-x:auto;">
 

@@ -19,10 +19,10 @@ Ahmednagar- 414001
 
 **Phone Numbers:**
 
-- Office – 0241-2321529
-- Office Administrator +91 9049377486
-- Headmistress +91 9284652008
-- Online Co-ordinator +91 7709732087
+- Office: 0241-2321529
+- Office Administrator: +91 9049377486
+- Headmistress: +91 9284652008
+- Online Co-ordinator: +91 7709732087
 
 **Email:**
 
