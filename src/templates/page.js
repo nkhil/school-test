@@ -12,6 +12,13 @@ const H1 = styled.h1`
   margin: auto;
   max-width: 960px;
   padding-top: 40px;
+
+  @media screen and (max-width: 599px) {
+    font-size: 2.3rem;
+    text-align: left;
+    padding-left: 15px;
+    padding-right: 10px;
+  }
 `;
 
 const Div = styled.div`
@@ -76,6 +83,8 @@ const Div = styled.div`
   }
 
   @media screen and (max-width: 599px) {
+    padding: 0 15px;
+
     table {
       td {
         border-right: solid 1px #eee;
