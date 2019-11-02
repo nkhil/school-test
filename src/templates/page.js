@@ -7,8 +7,11 @@ import Layout from '../components/Layout';
 import Container from '../components/styledComponents/Container';
 
 const H1 = styled.h1`
-  font-size: 3.2rem;
+  font-size: 2.8rem;
   text-align: center;
+  margin: auto;
+  max-width: 960px;
+  padding-top: 40px;
 `;
 
 const Div = styled.div`
@@ -17,36 +20,73 @@ const Div = styled.div`
     max-width: 960px;
     font-size: 1.2rem;
     line-height: 1.5;
-    padding: 20px 10px;
+    padding: 10px 0 20px 0;
   }
 
   h4 {
     margin: auto;
     max-width: 960px;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     line-height: 1.4;
+    font-weight: 300;
+    padding-top: 20px;
   }
 
   h2 {
     margin: auto;
+    font-size: 1.8rem;
     max-width: 960px;
+    padding-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  ul {
+    margin: auto;
+    max-width: 960px;
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+
+    li {
+      padding-top: 20px;
+    }
   }
 
   table {
     margin: auto;
-    font-size: 0.9rem;
+    font-size: 0.8rem;
     max-width: 1400px;
+    padding: 10px;
+    margin-top: 20px;
     border-collapse: separate;
-    border-spacing: 0 1em;
+    border-spacing: 30px 1em;
     border-top: 5px solid black;
     border-bottom: 5px solid black;
 
     tr {
       text-align: left;
     }
-    tr:nth-child(even) {
+    /* tr:nth-child(even) {
       background-color: #eee;
       color: #000;
+    } */
+
+    th {
+      white-space: nowrap;
+    }
+  }
+
+  @media screen and (max-width: 599px) {
+    table {
+      td {
+        border-right: solid 1px #eee;
+        padding: 15px;
+        margin: 10px;
+        /* border-left: solid 1px #f00; */
+      }
+
+      tr {
+        text-align: center;
+      }
     }
   }
 `;
