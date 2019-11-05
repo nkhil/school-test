@@ -4,7 +4,7 @@ import React from 'react';
 import { graphql } from 'gatsby';
 import styled from 'styled-components';
 import Layout from '../components/Layout';
-import Container from '../components/styledComponents/Container';
+import Footer from '../components/styledComponents/Footer';
 
 const H1 = styled.h1`
   font-size: 2.8rem;
@@ -114,10 +114,9 @@ export default function Template({ data }) {
   return (
     <>
       <Layout />
-      {/* <Container width="980px" full fullVertical> */}
       <H1>{post.frontmatter.title}</H1>
       <Div dangerouslySetInnerHTML={{ __html: post.html }} />
-      {/* </Container> */}
+      <Footer />
     </>
   );
 }
