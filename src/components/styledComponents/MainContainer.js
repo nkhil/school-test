@@ -3,7 +3,7 @@ import styled from 'styled-components';
 const MainContainer = styled.div`
   @import url('https://fonts.googleapis.com/css?family=Open+Sans:700|Montserrat=swap');
 
-  min-height: 60vh;
+  /* min-height: 60vh; */
   color: white;
   padding: 0;
   margin: 0;
