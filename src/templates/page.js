@@ -49,7 +49,8 @@ const Div = styled.div`
     margin-bottom: 20px;
   }
 
-  ul {
+  ul,
+  ol {
     margin: auto;
     max-width: 960px;
     font-size: 1.1rem;
