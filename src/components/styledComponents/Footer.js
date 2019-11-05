@@ -4,6 +4,7 @@ import Footer from '../Footer';
 const StyledFooter = styled(Footer)`
   background-color: #000;
   color: #fff;
+  margin-top: 100px;
   h2 {
     margin-left: 50px;
   }
