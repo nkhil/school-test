@@ -12,6 +12,7 @@ const H1 = styled.h1`
   margin: auto;
   max-width: 960px;
   padding-top: 40px;
+  margin-bottom: 25px;
 
   @media screen and (max-width: 599px) {
     font-size: 2.3rem;
@@ -26,17 +27,18 @@ const Div = styled.div`
     margin: auto;
     max-width: 960px;
     font-size: 1.2rem;
-    line-height: 1.5;
+    line-height: 1.8;
     padding: 10px 0 20px 0;
   }
 
   h4 {
     margin: auto;
     max-width: 960px;
-    font-size: 1.3rem;
+    font-size: 1.5rem;
     line-height: 1.4;
     font-weight: 300;
     padding-top: 20px;
+    text-align: center;
   }
 
   h2 {
