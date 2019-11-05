@@ -4,6 +4,8 @@ date: "13/02/2019"
 title: "Class and Section-wise Enrollment of Students 2019-20"
 ---
 
+<div style="overflow-x:auto;">
+
 <table>
 <tbody>
 <tr>
@@ -196,3 +198,5 @@ title: "Class and Section-wise Enrollment of Students 2019-20"
 </tr>
 </tbody>
 </table>
+
+</div>
