@@ -4,7 +4,7 @@ date: "13/02/2019"
 title: "About St.Michael's School"
 ---
 
-#### St. Michael’s is set in the idyllic countryside of Ahmednagar, a tier 2 city in the largest district of Maharashtra. The campus is spread over 6 acres of fresh open land with over 10 acres set aside for future expansion. With ample room to learn and reach their full potential in the crisp, clean outdoors, the students’ smiling faces are often the entire introduction you need.
+St. Michael’s school is set in the idyllic countryside of Ahmednagar, a tier 2 city in the largest district of Maharashtra. The campus is spread over 6 acres of fresh open land with over 10 acres set aside for future expansion. With ample room to learn and reach their full potential in the crisp, clean outdoors, the students’ smiling faces are often the entire introduction you need.
 
 ## Mission
 

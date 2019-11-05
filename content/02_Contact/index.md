@@ -26,7 +26,7 @@ Ahmednagar- 414001
 
 **Email:**
 
-school.st.michaels@gmail.com
+school.st.michaels<i></i>@<i></i>gmail.com
 
 **Social Media**
 
