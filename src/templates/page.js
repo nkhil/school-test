@@ -23,6 +23,7 @@ const H1 = styled.h1`
 `;
 
 const Div = styled.div`
+  min-height: calc(100vh - 70px);
   p {
     margin: auto;
     max-width: 960px;
