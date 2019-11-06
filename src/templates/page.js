@@ -62,14 +62,6 @@ const Div = styled.div`
     }
   }
 
-  iframe {
-    margin: auto;
-    max-width: 960px;
-    border: 3px solid #73ad21;
-    padding: 10px;
-    display: block;
-  }
-
   table {
     margin: auto;
     font-size: 0.8rem;
@@ -92,6 +84,11 @@ const Div = styled.div`
     th {
       white-space: nowrap;
     }
+  }
+
+  .map {
+    margin: auto;
+    max-width: 960px;
   }
 
   @media screen and (max-width: 599px) {
