@@ -9,7 +9,7 @@ export default function Navbar({ className }) {
 
   const [isActive, setIsActive] = useState(false);
   console.log("TCL: Navbar -> isActive", isActive)
-  const handleClick = () => setIsActive(!isActive);
+  const toggleIsActive = () => setIsActive(!isActive);
 
   return (
     <div className={className}>
@@ -21,11 +21,21 @@ export default function Navbar({ className }) {
           <Link to="/about">About</Link>
         </li>
         <li>
-          <button type="button" onClick={handleClick} className="align-arrow">
+          <button
+            type="button"
+            onClick={toggleIsActive}
+            onMouseOver={toggleIsActive}
+            onFocus={toggleIsActive}
+            className="align-arrow"
+          >
             <MdExpandMore size={16} color="#000" />
             Board Details
           </button>
-          <ul className={`${isActive ? 'show' : 'nav-dropdown'}`}>
+          <ul
+            className={`${isActive ? 'show' : 'nav-dropdown'}`}
+            onMouseOut={toggleIsActive}
+            onBlur={toggleIsActive}
+          >
             <li>
               <Link to="/management-committee">
                 <span>Management committee</span>

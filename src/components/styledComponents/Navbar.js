@@ -117,6 +117,7 @@ const StyledNavbar = styled(Navbar)`
           border-bottom: none;
         }
       }
+    }
   }
 `;
 

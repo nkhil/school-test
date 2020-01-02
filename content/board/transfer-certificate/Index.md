@@ -10,4 +10,4 @@ If you are applying for a transfer certificate for your child / ward:
 - Submit an application to the school office.
 - Allow one week for the office to process your request before collecting your TC.
 
-For more information, please [get in touch with us](/)
+For more information, please get in touch with us via the details in the footer, or our contact page.
