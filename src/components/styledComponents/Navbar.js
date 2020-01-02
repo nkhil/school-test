@@ -24,6 +24,7 @@ const StyledNavbar = styled(Navbar)`
   li {
     font-size: 1.2rem;
     font-weight: 600;
+    button,
     a {
       &:hover {
         cursor: pointer;
@@ -32,6 +33,11 @@ const StyledNavbar = styled(Navbar)`
       }
     }
 
+    button:focus {
+      outline: 0;
+    }
+
+    button,
     a {
       display: block;
       padding: 10px 20px 10px 20px;
@@ -39,6 +45,8 @@ const StyledNavbar = styled(Navbar)`
       text-transform: capitalize;
       color: #000;
       border-bottom: 5px solid transparent;
+      font-size: 1.2rem;
+      font-weight: 600;
     }
   }
 

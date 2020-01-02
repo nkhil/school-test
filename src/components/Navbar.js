@@ -8,6 +8,7 @@ import Container from './styledComponents/Container';
 export default function Navbar({ className }) {
 
   const [isActive, setIsActive] = useState(false);
+  console.log("TCL: Navbar -> isActive", isActive)
   const handleClick = () => setIsActive(!isActive);
 
   return (
@@ -20,10 +21,10 @@ export default function Navbar({ className }) {
           <Link to="/about">About</Link>
         </li>
         <li>
-          <Link onClick={handleClick} className="align-arrow">
+          <button type="button" onClick={handleClick} className="align-arrow">
             <MdExpandMore size={16} color="#000" />
             Board Details
-          </Link>
+          </button>
           <ul className={`${isActive ? 'show' : 'nav-dropdown'}`}>
             <li>
               <Link to="/management-committee">
