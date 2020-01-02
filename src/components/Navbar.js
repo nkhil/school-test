@@ -69,7 +69,7 @@ export default function Navbar({ className }) {
           </ul>
         </li>
         <li>
-          <Link to="/">Admissions</Link>
+          <Link to="/admission-process">Admissions</Link>
         </li>
         <li>
           <Link to="/contact">Contact</Link>

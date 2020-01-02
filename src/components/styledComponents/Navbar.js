@@ -72,6 +72,10 @@ const StyledNavbar = styled(Navbar)`
   @media screen and (max-width: 599px) {
     transition: all 0.2s ease-out;
 
+    .show {
+      position: relative;
+    }
+
     ${props => {
       if (props.isOpen) {
         return css`
@@ -102,7 +106,17 @@ const StyledNavbar = styled(Navbar)`
       font-size: 1.5rem;
       width: 100vw;
       display: flex;
-    }
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      button,
+      a {
+        &:hover {
+          cursor: pointer;
+          color: #402626;
+          border-bottom: none;
+        }
+      }
   }
 `;
 
