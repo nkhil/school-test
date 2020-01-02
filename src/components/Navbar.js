@@ -10,6 +10,7 @@ export default function Navbar({ className }) {
   const [isActive, setIsActive] = useState(false);
   console.log("TCL: Navbar -> isActive", isActive)
   const toggleIsActive = () => setIsActive(!isActive);
+  const setInactive = () => setIsActive(false);
 
   return (
     <div className={className}>
@@ -31,11 +32,8 @@ export default function Navbar({ className }) {
             <MdExpandMore size={16} color="#000" />
             Board Details
           </button>
-          <ul
-            className={`${isActive ? 'show' : 'nav-dropdown'}`}
-            onMouseOut={toggleIsActive}
-            onBlur={toggleIsActive}
-          >
+          {/* eslint-disable-next-line jsx-a11y/mouse-events-have-key-events */}
+          <ul className={`${isActive ? 'show' : 'nav-dropdown'}`} onMouseOut={toggleIsActive}>
             <li>
               <Link to="/management-committee">
                 <span>Management committee</span>
