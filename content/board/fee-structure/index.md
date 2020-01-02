@@ -4,6 +4,8 @@ date: "13/02/2019"
 title: "Fee Structure for 2019-20"
 ---
 
+<div class='mobile-only'>Please scroll right to see the entire table</div>
+
 | Particulars                                  | I      | II, III, IV | V, VI, VII | VIII, IX, X |
 | -------------------------------------------- | ------ | ----------- | ---------- | ----------- |
 | School Development Fund                      | 25,000 | 25,000      | 25,000     | 25,000      |

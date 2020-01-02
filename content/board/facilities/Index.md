@@ -6,6 +6,8 @@ title: "School Facilities"
 
 Please find the detailed list of facilities available at the school.
 
+<div class='mobile-only'>Please scroll right to see the entire table</div>
+
 |     |                       |        |                       |                        |
 | --- | --------------------- | ------ | --------------------- | ---------------------- |
 | Sr. | Room                  | Number | Length (in sq. mtrs.) | Breadth (in sq. mtrs.) |

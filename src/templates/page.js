@@ -91,6 +91,10 @@ const Div = styled.div`
     max-width: 960px;
   }
 
+  .mobile-only {
+    display: none;
+  }
+
   @media screen and (max-width: 599px) {
     padding: 0 15px;
 
@@ -105,6 +109,10 @@ const Div = styled.div`
       tr {
         text-align: center;
       }
+    }
+
+    .mobile-only {
+      display: block;
     }
   }
 `;

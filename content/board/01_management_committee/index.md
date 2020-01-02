@@ -8,6 +8,7 @@ title: "Management Committee"
 Please find details about the management committee below.
 </p>
 
+<div class='mobile-only' style="text-align: center;">Please scroll right to see the entire table</div>
 <div style="overflow-x:auto;">
 
 | Sr. | Full Name                 | Father’s/ Spouse’s Name   | Designation         | Occupation with Address                                                                                 | Mobile                  |

@@ -3,7 +3,7 @@ path: "/staff-particulars"
 date: "13/02/2019"
 title: "Staff Particulars"
 ---
-
+<div class='mobile-only'>Please scroll right to see the entire table</div>
 <div style="overflow-x:auto;">
 
 

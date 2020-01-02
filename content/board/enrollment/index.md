@@ -4,6 +4,7 @@ date: "13/02/2019"
 title: "Class and Section-wise Enrollment of Students 2019-20"
 ---
 
+<div class='mobile-only'>Please scroll right to see the entire table</div>
 <div style="overflow-x:auto;">
 
 <table>
