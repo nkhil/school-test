@@ -8,9 +8,8 @@ import Container from './styledComponents/Container';
 export default function Navbar({ className }) {
 
   const [isActive, setIsActive] = useState(false);
-  console.log("TCL: Navbar -> isActive", isActive)
   const toggleIsActive = () => setIsActive(!isActive);
-  const setInactive = () => setIsActive(false);
+  const setActive = () => setIsActive(true);
 
   return (
     <div className={className}>
@@ -21,7 +20,8 @@ export default function Navbar({ className }) {
         <li>
           <Link to="/about">About</Link>
         </li>
-        <li>
+        {/* eslint-disable-next-line jsx-a11y/mouse-events-have-key-events */}
+        <li onMouseOut={toggleIsActive}>
           <button
             type="button"
             onClick={toggleIsActive}
@@ -33,7 +33,7 @@ export default function Navbar({ className }) {
             Board Details
           </button>
           {/* eslint-disable-next-line jsx-a11y/mouse-events-have-key-events */}
-          <ul className={`${isActive ? 'show' : 'nav-dropdown'}`} onMouseOut={toggleIsActive}>
+          <ul className={`${isActive ? 'show' : 'nav-dropdown'}`} onMouseOver={setActive}>
             <li>
               <Link to="/management-committee">
                 <span>Management committee</span>
