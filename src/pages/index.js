@@ -10,7 +10,7 @@ export default function Index() {
   return (
     <>
       <Helmet>
-        <title>St.Michael's School Ahmednagar</title>
+        <title>St.Michael's School, Ahmednagar</title>
       </Helmet>
       <Layout />
       <Hero bgImage={bgImage} />

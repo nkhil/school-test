@@ -124,7 +124,7 @@ export default function Template({ data }) {
   return (
     <>
       <Helmet>
-        <title>St.Michael's School Ahmednagar - {post.frontmatter.title}</title>
+        <title>St.Michael's School, Ahmednagar - {post.frontmatter.title}</title>
       </Helmet>
       <Layout />
       <H1>{post.frontmatter.title}</H1>
