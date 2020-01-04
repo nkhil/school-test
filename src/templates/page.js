@@ -2,6 +2,7 @@
 /* eslint-disable react/prop-types */
 import React from 'react';
 import { graphql } from 'gatsby';
+import { Helmet } from 'react-helmet';
 import styled from 'styled-components';
 import Layout from '../components/Layout';
 import Footer from '../components/styledComponents/Footer';
@@ -122,6 +123,9 @@ export default function Template({ data }) {
 
   return (
     <>
+      <Helmet>
+        <title>St.Michael's School Ahmednagar - {post.frontmatter.title}</title>
+      </Helmet>
       <Layout />
       <H1>{post.frontmatter.title}</H1>
       <Div dangerouslySetInnerHTML={{ __html: post.html }} />
