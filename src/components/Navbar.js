@@ -80,6 +80,9 @@ export default function Navbar({ className }) {
           <Link to="/admission-process">Admissions</Link>
         </li>
         <li>
+          <Link to="/book-lists">Book Lists</Link>
+        </li>
+        <li>
           <Link to="/contact">Contact</Link>
         </li>
       </ul>
