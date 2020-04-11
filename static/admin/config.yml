@@ -56,9 +56,69 @@ collections:
       - { name: path, label: Path }
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Body", name: "body", widget: "markdown" }
-  - name: "board"
-    label: "board"
-    folder: "content/board"
+  - name: "01_management_committee"
+    label: "01_management_committee"
+    folder: "content/board/01_management_committee"
+    create: true
+    editor:
+     preview: false
+    fields:
+      - { name: path, label: Path }
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Body", name: "body", widget: "markdown" }
+  - name: "admission-process"
+    label: "admission-process"
+    folder: "content/board/admission-process"
+    create: true
+    editor:
+     preview: false
+    fields:
+      - { name: path, label: Path }
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Body", name: "body", widget: "markdown" }
+  - name: "enrollment"
+    label: "enrollment"
+    folder: "content/board/enrollment"
+    create: true
+    editor:
+     preview: false
+    fields:
+      - { name: path, label: Path }
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Body", name: "body", widget: "markdown" }
+  - name: "facilities"
+    label: "facilities"
+    folder: "content/board/facilities"
+    create: true
+    editor:
+     preview: false
+    fields:
+      - { name: path, label: Path }
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Body", name: "body", widget: "markdown" }
+  - name: "fee-structure"
+    label: "fee-structure"
+    folder: "content/board/fee-structure"
+    create: true
+    editor:
+     preview: false
+    fields:
+      - { name: path, label: Path }
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Body", name: "body", widget: "markdown" }
+  - name: "staff-particulars"
+    label: "staff-particulars"
+    folder: "content/board/staff-particulars"
+    create: true
+    editor:
+     preview: false
+    fields:
+      - { name: path, label: Path }
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Body", name: "body", widget: "markdown" }
+  - name: "transfer-certificate"
+    label: "transfer-certificate"
+    folder: "content/board/transfer-certificate"
     create: true
     editor:
      preview: false
