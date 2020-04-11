@@ -36,4 +36,34 @@ collections:
       - { name: path, label: Path }
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Body", name: "body", widget: "markdown" }
+  - name: "04_Annual_Report"
+    label: "04_Annual_Report"
+    folder: "content/04_Annual_Report"
+    create: true
+    editor:
+     preview: false
+    fields:
+      - { name: path, label: Path }
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Body", name: "body", widget: "markdown" }
+  - name: "04_Book_Lists"
+    label: "04_Book_Lists"
+    folder: "content/04_Book_Lists"
+    create: true
+    editor:
+     preview: false
+    fields:
+      - { name: path, label: Path }
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Body", name: "body", widget: "markdown" }
+  - name: "board"
+    label: "board"
+    folder: "content/board"
+    create: true
+    editor:
+     preview: false
+    fields:
+      - { name: path, label: Path }
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Body", name: "body", widget: "markdown" }
       
