@@ -1,7 +1,7 @@
 ---
 path: /book-lists
 date: 13/02/2019
-title: Book lists Edited
+title: Book lists
 ---
 
 Scroll down to see book lists for all grades (STD 1 through to 10).
