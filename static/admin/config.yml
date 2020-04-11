@@ -6,9 +6,29 @@ media_folder: static/img
 public_folder: /img
 
 collections:
-  - name: "blog"
-    label: "Blog"
-    folder: "content"
+  - name: "01_About"
+    label: "01_About"
+    folder: "content/01_About"
+    create: true
+    editor:
+     preview: false
+    fields:
+      - { name: path, label: Path }
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Body", name: "body", widget: "markdown" }
+  - name: "02_Contact"
+    label: "02_Contact"
+    folder: "content/02_Contact"
+    create: true
+    editor:
+     preview: false
+    fields:
+      - { name: path, label: Path }
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Body", name: "body", widget: "markdown" }
+  - name: "03_School_Song"
+    label: "03_School_Song"
+    folder: "content/03_School_Song"
     create: true
     editor:
      preview: false
