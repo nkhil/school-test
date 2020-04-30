@@ -1,9 +1,8 @@
 ---
-path: "/school-song"
-date: "13/02/2019"
-title: "School Song"
+path: /school-song
+date: 13/02/2019
+title: School Song
 ---
-
 #### We all walk in the spirit of love
 
 #### Touching the hearts of all
