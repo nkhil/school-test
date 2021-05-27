@@ -1,28 +1,26 @@
 ---
-path: "/contact"
-date: "13/02/2019"
-title: "Contact Us"
+path: /contact
+date: 13/02/2019
+title: Contact Us
 ---
-
 **Office Hours:**
 
-Monday to Saturday (except public holidays)  
-10 am – 1.30 pm  
-2.30 pm – 5 pm
+Monday to Saturday (except public holidays)\
+9.30 am – 1.30 pm\
+2 pm – 5 pm
 
 **Office Address:**
 
-St.Michael’s School,  
-Ralli Villa,  
-Sholapur Road,  
+St. Michael’s School,\
+Ralli Villa,\
+Sholapur Road,\
 Ahmednagar- 414001
 
 **Phone Numbers:**
 
-- Office: 0241-2321529
-- Office Administrator: +91 9049377486
-- Headmistress: +91 9284652008
-- Online Co-ordinator: +91 7709732087
+* Office: 0241-2321529
+* Office Administrator: +91 9049377486
+* Headmistress: +91 9284652008
 
 **Email:**
 
@@ -30,7 +28,7 @@ school.st.michaels<i></i>@<i></i>gmail.com
 
 **Social Media**
 
-- **Facebook** - [Click here to like us!](https://www.facebook.com/stmichaelsahmednagar/?ref=hl)
+* **Facebook** - [Click here to like us!](https://www.facebook.com/stmichaelsahmednagar/?ref=hl)
 
 **Directions and Map**
 
