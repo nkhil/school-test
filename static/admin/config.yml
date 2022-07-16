@@ -126,3 +126,13 @@ collections:
       - { name: path, label: Path }
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Body", name: "body", widget: "markdown" }
+  - name: "mandatory-public-disclosure"
+    label: "Details of curriculum"
+    folder: "content/05_Mandatory_public_disclosure"
+    create: true
+    editor:
+     preview: false
+    fields:
+      - { name: path, label: Path }
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Body", name: "body", widget: "markdown" }
