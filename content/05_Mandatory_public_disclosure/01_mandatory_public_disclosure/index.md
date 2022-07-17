@@ -4,6 +4,7 @@ date: 13/02/2019
 title: Mandatory public disclosure
 ---
 
+<div style="overflow-x:auto;">
 | **(A) GENERAL INFORMATION** | |
 |----------|:-------------:|
 | 1\. Name of the School                                                                                                                       | St. Michael’s School |
@@ -50,3 +51,5 @@ title: Mandatory public disclosure
 |           (i)   Own Buses                                                                                                                    | (i)   1 (staff bus) |
 |          (ii)  Buses hired on contract basis                                                                                                 | (ii)  10 buses, 29 minivans |
 |          (iii) Details of transport charges                                                                                                  | (iii) Rs. 1550/- per month |
+
+</div>
