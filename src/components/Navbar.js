@@ -2,14 +2,16 @@
 import React, { useState } from 'react';
 import { Link } from 'gatsby';
 import { MdExpandMore } from 'react-icons/md';
-import navbarLinks from '../constants/navbarLinks';
-import Container from './styledComponents/Container';
 
 export default function Navbar({ className }) {
+  const [isBoardDetailsActive, setBoardDetailsActive] = useState(false);
+  const toggleBoardDetailsActive = () => setBoardDetailsActive(!isBoardDetailsActive);
+  const setBoardDetailsIsActive = () => setBoardDetailsActive(true);
 
-  const [isActive, setIsActive] = useState(false);
-  const toggleIsActive = () => setIsActive(!isActive);
-  const setActive = () => setIsActive(true);
+  const [isMandatoryDisclosureSectionActive, setMandatoryDisclosureSection] = useState(false);
+  const toggleMandatoryDisclosureSectionActive = () =>
+    setMandatoryDisclosureSection(!isMandatoryDisclosureSectionActive);
+  const setMandatoryDisclosureSectionToActive = () => setMandatoryDisclosureSection(true);
 
   return (
     <div className={className}>
@@ -21,19 +23,22 @@ export default function Navbar({ className }) {
           <Link to="/about">About</Link>
         </li>
         {/* eslint-disable-next-line jsx-a11y/mouse-events-have-key-events */}
-        <li onMouseOut={toggleIsActive}>
+        <li onMouseOut={toggleBoardDetailsActive}>
           <button
             type="button"
-            onClick={toggleIsActive}
-            onMouseOver={toggleIsActive}
-            onFocus={toggleIsActive}
+            onClick={toggleBoardDetailsActive}
+            onMouseOver={toggleBoardDetailsActive}
+            onFocus={toggleBoardDetailsActive}
             className="align-arrow"
           >
             <MdExpandMore size={16} color="#000" />
             Board Details
           </button>
           {/* eslint-disable-next-line jsx-a11y/mouse-events-have-key-events */}
-          <ul className={`${isActive ? 'show' : 'nav-dropdown'}`} onMouseOver={setActive}>
+          <ul
+            className={`${isBoardDetailsActive ? 'show' : 'nav-dropdown'}`}
+            onMouseOver={setBoardDetailsIsActive}
+          >
             <li>
               <Link to="/management-committee">
                 <span>Management committee</span>
@@ -76,11 +81,82 @@ export default function Navbar({ className }) {
             </li>
           </ul>
         </li>
-        <li>
-          <Link to="/admission-process">Admissions</Link>
+        {/* eslint-disable-next-line jsx-a11y/mouse-events-have-key-events */}
+        <li onMouseOut={toggleMandatoryDisclosureSectionActive}>
+          <button
+            type="button"
+            onClick={toggleMandatoryDisclosureSectionActive}
+            onMouseOver={toggleMandatoryDisclosureSectionActive}
+            onFocus={toggleMandatoryDisclosureSectionActive}
+            className="align-arrow"
+          >
+            <MdExpandMore size={16} color="#000" />
+            Mandatory Public Disclosure
+          </button>
+          {/* eslint-disable-next-line jsx-a11y/mouse-events-have-key-events */}
+          <ul
+            className={`${isMandatoryDisclosureSectionActive ? 'show' : 'nav-dropdown'}`}
+            onMouseOver={setMandatoryDisclosureSectionToActive}
+          >
+            <li>
+              <Link to="/mandatory-public-disclosure">
+                <span>Mandatory Public Disclosure</span>
+              </Link>
+            </li>
+            <li>
+              <Link to="/mandatory-public-disclosure/details-of-curriculum">
+                <span>Details of Curriculum</span>
+              </Link>
+            </li>
+            <li>
+              <Link to="/mandatory-public-disclosure/management-committee">
+                <span>Management Committee</span>
+              </Link>
+            </li>
+            <li>
+              <Link to="/mandatory-public-disclosure/school-leaving-certificate">
+                <span>School leaving certificate</span>
+              </Link>
+            </li>
+            <li>
+              <Link to="/mandatory-public-disclosure/fee-structure">
+                <span>Fee structure</span>
+              </Link>
+            </li>
+            <li>
+              <Link to="/mandatory-public-disclosure/fee-structure-norms">
+                <span>Fee structure norms</span>
+              </Link>
+            </li>
+            <li>
+              <Link to="/mandatory-public-disclosure/self-affidavit">
+                <span>Self Affidavit</span>
+              </Link>
+            </li>
+            <li>
+              <Link to="/mandatory-public-disclosure/infrastructure-and-facilities">
+                <span>Infrastructure and facilities</span>
+              </Link>
+            </li>
+            <li>
+              <Link to="/mandatory-public-disclosure/academic-result-2021-22">
+                <span>Academic results</span>
+              </Link>
+            </li>
+            <li>
+              <Link to="/mandatory-public-disclosure/admission-form">
+                <span>Admission form</span>
+              </Link>
+            </li>
+            <li>
+              <Link to="/mandatory-public-disclosure/awards-and-recognition">
+                <span>Awards and recognition</span>
+              </Link>
+            </li>
+          </ul>
         </li>
         <li>
-          <Link to="/book-lists">Book Lists</Link>
+          <Link to="/admission-process">Admissions</Link>
         </li>
         <li>
           <Link to="/contact">Contact</Link>
