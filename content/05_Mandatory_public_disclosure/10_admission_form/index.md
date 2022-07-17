@@ -8,4 +8,4 @@ title: Academic Form
 
 This form is not for download
 
-![admission-form](./Admission-form-2019-20_Watermarked.jpeg)
+![admission-form](https://res.cloudinary.com/nkhil/image/upload/v1658086498/school/Admission-form-2019-20_Watermarked_tnzg1s.jpg)
