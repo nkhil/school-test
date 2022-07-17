@@ -6,7 +6,7 @@ title: "School Facilities"
 
 Please find the detailed list of facilities available at the school.
 
-<div class='mobile-only'>Please scroll right to see the entire table</div>
+<div style="overflow-x:auto;">
 
 |     |                       |        |                       |                        |
 | --- | --------------------- | ------ | --------------------- | ---------------------- |
@@ -29,3 +29,5 @@ Please find the detailed list of facilities available at the school.
 | 16. | Wellness room/Clinic  | 01     | 10                    | 6                      |
 | 17. | Other rooms           | –      | –                     | –                      |
 |     |                       |        |                       |                        |
+
+</div>
