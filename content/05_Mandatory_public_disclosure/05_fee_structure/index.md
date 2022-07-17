@@ -4,4 +4,4 @@ date: 13/02/2019
 title: Fee structure
 ---
 
-Please [click here](./fee-structure.pdf) to view latest resolutions and structure
+Please [click here](https://res.cloudinary.com/nkhil/image/upload/v1658087382/school/fee-structure_mtty4a.pdf) to view latest resolutions and structure
