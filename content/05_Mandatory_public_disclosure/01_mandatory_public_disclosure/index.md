@@ -5,6 +5,7 @@ title: Mandatory public disclosure
 ---
 
 <div style="overflow-x:auto;">
+
 | **(A) GENERAL INFORMATION** | |
 |----------|:-------------:|
 | 1\. Name of the School                                                                                                                       | St. Michael’s School |
