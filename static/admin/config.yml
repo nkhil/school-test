@@ -127,8 +127,108 @@ collections:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Body", name: "body", widget: "markdown" }
   - name: "mandatory-public-disclosure"
-    label: "Details of curriculum"
-    folder: "content/05_Mandatory_public_disclosure"
+    label: "Mandatory Public Disclosure"
+    folder: "content/05_Mandatory_public_disclosure/01_mandatory_public_disclosure"
+    create: true
+    editor:
+     preview: false
+    fields:
+      - { name: path, label: Path }
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Body", name: "body", widget: "markdown" }
+  - name: "details-of-curriculum"
+    label: "Details of Curriculum"
+    folder: "content/05_Mandatory_public_disclosure/02_details_of_curriculum"
+    create: true
+    editor:
+     preview: false
+    fields:
+      - { name: path, label: Path }
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Body", name: "body", widget: "markdown" }
+  - name: "management-committee"
+    label: "Management Committee"
+    folder: "content/05_Mandatory_public_disclosure/03_management_committee"
+    create: true
+    editor:
+     preview: false
+    fields:
+      - { name: path, label: Path }
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Body", name: "body", widget: "markdown" }
+  - name: "school-leaving-certificate"
+    label: "School Leaving Certificate"
+    folder: "content/05_Mandatory_public_disclosure/04_school_leaving_certificate"
+    create: true
+    editor:
+     preview: false
+    fields:
+      - { name: path, label: Path }
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Body", name: "body", widget: "markdown" }
+  - name: "fee-structure"
+    label: "Fee Structure"
+    folder: "content/05_Mandatory_public_disclosure/05_fee_structure"
+    create: true
+    editor:
+     preview: false
+    fields:
+      - { name: path, label: Path }
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Body", name: "body", widget: "markdown" }
+  - name: "fees-norms"
+    label: "Fee Norms"
+    folder: "content/05_Mandatory_public_disclosure/06_fees_norms"
+    create: true
+    editor:
+     preview: false
+    fields:
+      - { name: path, label: Path }
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Body", name: "body", widget: "markdown" }
+  - name: "self-affidavit"
+    label: "Self Affidavit"
+    folder: "content/05_Mandatory_public_disclosure/07_self_affidavit"
+    create: true
+    editor:
+     preview: false
+    fields:
+      - { name: path, label: Path }
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Body", name: "body", widget: "markdown" }
+  - name: "infrastructure-and-facilities"
+    label: "Infrastructure and Facilities"
+    folder: "content/05_Mandatory_public_disclosure/08_infrastructure_and_facilities"
+    create: true
+    editor:
+     preview: false
+    fields:
+      - { name: path, label: Path }
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Body", name: "body", widget: "markdown" }
+  - name: "results-2021-22"
+    label: "Results 2021-22"
+    folder: "content/05_Mandatory_public_disclosure/09_results_2021-22"
+    create: true
+    editor:
+     preview: false
+    fields:
+      - { name: path, label: Path }
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Body", name: "body", widget: "markdown" }
+  - name: "admission-form"
+    label: "Admission Form"
+    folder: "content/05_Mandatory_public_disclosure/10_admission_form"
+    create: true
+    editor:
+     preview: false
+    fields:
+      - { name: path, label: Path }
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Body", name: "body", widget: "markdown" }
+  - name: "awards-and-recognition"
+    label: "Awards and Recognition"
+    folder: "content/05_Mandatory_public_disclosure/11_awards_and_recognition"
     create: true
     editor:
      preview: false
