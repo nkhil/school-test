@@ -1,5 +1,5 @@
 ---
-path: /mandatory-public-disclosure/
+path: /mandatory-public-disclosure
 date: 13/02/2019
 title: Mandatory public disclosure
 ---
