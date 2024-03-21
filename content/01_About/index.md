@@ -15,4 +15,4 @@ Our mission is to ensure that the students who leave the portals of our school g
 
 In the years to come, we will be able to see the institution grow in ways that will be directly beneficial to the nation. We aim to impart a high quality learning environment that will not only enable our students progress towards their own goals in life, but also channel their abilities, privilege and energies in ways which will uplift those less fortunate. Such young people are the need of the hour in our country. 
 
-To facilitate the creation of a cadre of future leaders and entrepreneurs who can give back to society, is our vision for this institution and our dream for its future.
+To facilitate the creation of a cadre of future leaders and entrepreneurs who can give back to society, is our vision for this institution and our dream for its future
