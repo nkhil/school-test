@@ -1,7 +1,7 @@
 ---
-path: "/annual-report"
+path: "/academic-calendar"
 date: "13/02/2019"
-title: "Annual Report"
+title: "Academic Calendar"
 ---
 
-To be uploaded at the end of academic session 2019-20.
+Please click here 
