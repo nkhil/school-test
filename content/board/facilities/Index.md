@@ -23,11 +23,11 @@ Please find the detailed list of facilities available at the school.
 | 10. | Geography Lab         | –      | –                     | –                      |
 | 11. | Bio-Tech Lab          | –      | –                     | –                      |
 | 12. | Music Lab             | 01     | 8                     | 6                      |
-| 13. | Activity Lab          | –      | –                     | –                      |
+| 13. | Activity Lab          | 1      |  11.27                | 6                      |
 | 14. | Library               | 01     | 17.23                 | 6                      |
-| 15  | Staff Rooms           | 01     | 13.5                  | 6                      |
+| 15  | Staff Room            | 01     | 13.5                  | 6                      |
 | 16. | Wellness room/Clinic  | 01     | 10                    | 6                      |
-| 17. | Other rooms           | –      | –                     | –                      |
-|     |                       |        |                       |                        |
+| 17. | AV Room               | –      | –                     | –                      |
+| 18. | Other rooms           |        |                       |                        |
 
 </div>
