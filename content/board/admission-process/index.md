@@ -4,7 +4,8 @@ date: "13/02/2019"
 title: "Admission Process"
 ---
 
-Admission Forms are available in the month of December every year. Dates for sale of forms will be made public through an advertisement in the local newspapers.
+Admissions are open for the academic year 2025-26. Forms are available on 16th - 18th Dec 2024 at our office address on Sholapur Road. Filled forms to be submitted on the 23rd and 24th Dec 2024. 
+
 
 ## Steps to be followed for admission
 
@@ -22,7 +23,7 @@ Admission Forms are available in the month of December every year. Dates for sal
 
 **Step 5:** On confirmation of admission, you will be allotted an admission number. You will also be given a list of the School Kit, Calendar of Events and schedule of fees payment.
 
-**Step 6:** On payment of the Term-I Fees, your ward will be required to join school as per the calendar of events, with her/his complete school kit.
+**Step 6:** On payment of the Term-I Fees, your ward will be required to join school as per the calendar of events, with the complete school kit.
 
 ## Admission forms are available at the following address:
 
